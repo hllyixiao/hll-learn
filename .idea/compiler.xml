@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hll-learn" />
+        <module name="learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hll-learn" target="1.8" />
+      <module name="learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
