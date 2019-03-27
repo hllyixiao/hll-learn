@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisSentinelPool;
+import redis.clients.jedis.Transaction;
 
 /**
  * @author hell
@@ -15,11 +17,21 @@ import redis.clients.jedis.JedisPool;
 public class RedisController {
 
     @Autowired
-    private JedisPool jedisPool;
+    private JedisPool pool;
+//    @Autowired
+//    private JedisSentinelPool pool;
 
     @GetMapping("/redis/test")
     public void test(){
-        Jedis jedis = jedisPool.getResource();
+        Jedis jedis = pool.getResource();
+
+        // 事物
+        jedis.watch("k2");
+        jedis.unwatch();
+        Transaction transaction = jedis.multi();
+        transaction.incr("k2");
+        transaction.exec();
+
         // String 操作
         System.out.println("-----------String 操作 start-----------");
         jedis.set("sk1","sv1");
@@ -44,10 +56,8 @@ public class RedisController {
         System.out.println("-----------List 操作 end-----------");
 
         // set操作
-
         jedis.sadd("setk1","setkv1");
         jedis.sadd("setk1","123");
-
 
         // value 操作
         System.out.println(jedis.exists("setk1"));
@@ -56,18 +66,23 @@ public class RedisController {
         System.out.println(jedis.keys("*"));
         jedis.del("sk3");
         jedis.flushDB();
+
+        jedis.close();
+    }
+
+    @GetMapping("/redis/test2")
+    public void test2(){
+
     }
 
     @GetMapping("/redis/test1")
     public void test1(){
-
-
         for (int i=0;i < 5; i++) {
             Thread t = new Thread() {
                 @Override
                 public void run() {
                     long time = System.currentTimeMillis()+1000;
-                    DistributedLockByRedis d = new DistributedLockByRedis(jedisPool.getResource());
+                    DistributedLockByRedis d = new DistributedLockByRedis(pool.getResource());
                     for (;;) {
                         if (d.newLock("lock",String.valueOf(time))) {
                             System.out.println("当前线程: "+Thread.currentThread().getName() + "  lock");

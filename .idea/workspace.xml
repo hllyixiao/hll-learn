@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd30446-e0fc-4de9-aa7c-ab41270fff0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/learn.iml" afterPath="$PROJECT_DIR$/learn.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hll/learn/LearnApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/hll/learn/LearnApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/Base.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java" afterPath="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hll/learn/LearnApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/hll/learn/LearnApplication.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,18 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +41,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>transaction</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,15 +68,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-mysql.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DynamicRoutingDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/controller/DynamicDataSourceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DataBaseConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/LearnApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java" />
       </list>
     </option>
   </component>
@@ -79,14 +88,41 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-99" />
+    <option name="x" value="7" />
+    <option name="y" value="2" />
     <option name="width" value="1378" />
-    <option name="height" value="734" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -163,9 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,16 +257,54 @@
               <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hll-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hll" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -389,7 +461,10 @@
       <workItem from="1551167758539" duration="1116000" />
       <workItem from="1551317164719" duration="27214000" />
       <workItem from="1551424521463" duration="6098000" />
-      <workItem from="1551695609096" duration="49000" />
+      <workItem from="1551695609096" duration="1570000" />
+      <workItem from="1551698166969" duration="2133000" />
+      <workItem from="1551770771748" duration="5919000" />
+      <workItem from="1553671320057" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="修改1">
       <created>1551424628484</created>
@@ -398,42 +473,49 @@
       <option name="project" value="LOCAL" />
       <updated>1551424628484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改1">
+      <created>1551695666301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551695666301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35261000" />
+    <option name="totallyTimeSpent" value="44948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.059757944" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2607204" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Setup Guide" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24828768" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Setup Guide" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50428814" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40137222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34417808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -488,24 +570,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DataBaseConfiguration.java</url>
           <line>44</line>
           <properties />
@@ -523,8 +587,32 @@
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -533,68 +621,15 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#567#568#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/LearnApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-mysql.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java">
@@ -609,7 +644,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#299#300#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,6 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,21 +666,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.6.1/commons-pool2-2.6.1.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
@@ -660,24 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-mysql.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/JedisPoolAbstract.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -758,59 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Protocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/BinaryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/BinaryJedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/params/Params.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/params/SetParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Jedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="161" column="16" lean-forward="false" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -821,45 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1484">
-          <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#567#568#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1185">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/Base.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -874,241 +804,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/DynamicDataSourceController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/DynamicDataSourceController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.0/druid-1.1.0.jar!/com/alibaba/druid/pool/DruidDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1188">
+          <caret line="133" column="11" lean-forward="false" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DynamicRoutingDataSource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DataBaseConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39930">
+          <caret line="1870" column="21" lean-forward="false" selection-start-line="1870" selection-start-column="10" selection-end-line="1870" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.0/druid-spring-boot-starter-1.1.0.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-mysql.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/PipelineBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="386" column="24" lean-forward="false" selection-start-line="386" selection-start-column="24" selection-end-line="386" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/commands/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="125" column="21" lean-forward="false" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/BinaryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="124" column="10" lean-forward="false" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/params/SetParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/JedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="124" column="9" lean-forward="false" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3452" column="14" lean-forward="false" selection-start-line="3452" selection-start-column="14" selection-end-line="3452" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/JedisSentinelPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="212" column="33" lean-forward="false" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/util/Pool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/LearnApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.0/druid-1.1.0.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="133" column="11" lean-forward="false" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+        <state relative-caret-position="154">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <marker date="1543281739073" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1543281739073" expanded="false" signature="146:3592" ph="..." />
-            <marker date="1543281739073" expanded="true" signature="5835:5846" ph=" { " />
-            <marker date="1543281739073" expanded="true" signature="5858:5864" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="5911:7151" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="7210:13756" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="13806:13817" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="13855:13861" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="13939:14010" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="14058:14069" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14105:14111" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="14189:14260" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="14294:14305" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14327:14333" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="14382:14393" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14420:14426" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="14465:14476" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14503:14509" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="14549:14560" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14588:14594" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="14656:14834" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="14869:14880" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="14905:14911" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="14959:15506" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="15536:17071" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="17104:17115" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="17144:17150" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="17181:17192" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="17211:17217" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="17261:17534" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="17592:17603" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="17642:17648" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="17709:18869" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="18915:20474" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="20536:22299" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="22344:32208" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="32248:32574" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="32625:33338" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="33389:33752" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="33798:34574" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="34637:35331" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="35375:35797" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="35839:36708" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="36761:37421" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="37469:38426" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="38471:39429" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="39477:40605" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="40646:42212" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="42283:42339" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="42428:42723" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="42795:42851" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="42951:43043" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="43138:46456" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="46519:46838" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="46930:50469" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="50586:52711" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="52800:56639" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="56679:56690" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="56726:56732" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="56792:57089" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="57115:59480" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="59514:60017" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="59595:59665" ph="run() → {" />
-            <marker date="1543281739073" expanded="false" signature="59979:59998" ph="}" />
-            <marker date="1543281739073" expanded="true" signature="60053:60440" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="60133:60203" ph="run() → {" />
-            <marker date="1543281739073" expanded="false" signature="60402:60421" ph="}" />
-            <marker date="1543281739073" expanded="false" signature="60480:60491" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="60519:60525" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="60599:61153" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="61234:62468" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="62567:64342" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="64390:64401" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="64421:64427" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="64475:64486" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="64506:64512" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="64604:64984" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="65018:65029" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="65059:65065" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="65100:65111" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="65142:65148" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="65184:65373" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="65406:65417" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="65440:65446" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="65486:65497" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="65533:65539" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="65574:65762" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="65796:65983" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="66021:66032" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="66106:66112" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="66147:66158" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="66183:66189" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="66223:66410" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="66439:66671" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="66732:70628" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="70671:70682" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="70715:70721" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="70796:71350" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="71406:72378" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="72413:75648" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="75709:76182" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="76230:76499" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="76543:76699" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="76743:76899" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="76935:77192" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="77218:77229" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="77255:77261" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="77304:77315" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="77354:77360" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="77423:81679" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="81717:81931" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="81971:81982" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82012:82018" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="82064:82263" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="82308:82506" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="82548:82559" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82591:82597" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="82638:82649" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82690:82696" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="82736:82747" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82777:82783" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="82820:82831" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82865:82871" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="82903:82914" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="82937:82943" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="82980:82991" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="83063:83069" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="83096:83285" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="83318:83329" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="83358:83364" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="83395:86292" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="86358:88691" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="88746:89443" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="89475:89486" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="89520:89526" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="89577:89588" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="89615:89621" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="89683:89734" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="89786:89887" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="89942:93242" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="93289:98554" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="98600:98611" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="98661:98667" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="98714:98725" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="98775:98781" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="98834:98845" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="98893:98899" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="98949:99101" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="99168:99546" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="99573:99584" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="99601:99607" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="99657:100053" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="100095:100498" ph="{...}" />
-            <marker date="1543281739073" expanded="false" signature="100541:100552" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="100583:100589" ph=" }" />
-            <marker date="1543281739073" expanded="false" signature="100656:100667" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="100712:100718" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="100792:100868" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="100912:100961" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="101016:103302" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="103348:103492" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="103522:103751" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="103784:104281" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="104371:104697" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="104754:104761" ph="{}" />
-            <marker date="1543281739073" expanded="true" signature="104812:104819" ph="{}" />
-            <marker date="1543281739073" expanded="true" signature="104854:104861" ph="{}" />
-            <marker date="1543281739073" expanded="false" signature="104892:104903" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="104922:104928" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="104977:105595" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="105022:105092" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="105120:105589" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="105646:105943" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="105677:105688" ph="{}" />
-            <marker date="1543281739073" expanded="true" signature="105716:105937" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="106001:106932" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="106055:106125" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="106153:106926" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="106989:112103" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="107042:107112" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="107140:112097" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="112163:116763" ph="{...}" />
-            <marker date="1543281739073" expanded="true" signature="112240:112251" ph="{}" />
-            <marker date="1543281739073" expanded="false" signature="112278:112293" ph=" { " />
-            <marker date="1543281739073" expanded="false" signature="112312:112322" ph=" }" />
-            <marker date="1543281739073" expanded="true" signature="112359:116757" ph="{...}" />
+            <element signature="e#299#300#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DynamicRoutingDataSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/DistributedLockByRedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="-770">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="-1372">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/dynamicdatasource/config/DataBaseConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hll/learn/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="-322">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
           <folding />
         </state>
       </provider>

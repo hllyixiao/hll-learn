@@ -6,6 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
+import redis.clients.jedis.JedisSentinelPool;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Jedis是一个非常小的Redis java客户端。
@@ -58,5 +62,42 @@ public class RedisConfig {
         JedisPool jedisPool = new JedisPool(jedisPoolConfig,host,port);
         return jedisPool;
     }
+
+
+//    /**
+//     * 哨兵模式(高可用)
+//     * @param jedisPoolConfig
+//     * @return
+//     */
+//    @Bean
+//    public JedisSentinelPool jedisSentinelPool(@Qualifier("jedisPoolConfig") JedisPoolConfig jedisPoolConfig){
+//        Set<String> sentinels = new HashSet<>();
+//        sentinels.add("192.168.59.129:26379");
+//        return new JedisSentinelPool("mymaster", sentinels, jedisPoolConfig);
+//    }
+
+
+    /*
+       下面是springboot 集成redis的配置
+    */
+//    @Bean
+//    public JedisConnectionFactory jedisConnectionFactory(@Qualifier("jedisPoolConfig")JedisPoolConfig jedisPoolConfig){
+//        JedisConnectionFactory jedisConnectionFactory = new JedisConnectionFactory();
+//        jedisConnectionFactory.setHostName(host);
+//        jedisConnectionFactory.setPort(port);
+//        jedisConnectionFactory.setTimeout(timeout);
+//        jedisConnectionFactory.setPoolConfig(jedisPoolConfig);
+//        return jedisConnectionFactory;
+//    }
+//
+//    @SuppressWarnings("rawtypes")
+//    @Bean(name="redisTemplate")
+//    @Primary
+//    public RedisTemplate redisTemplate(@Qualifier("jedisConnectionFactory")JedisConnectionFactory jedisConnectionFactory){
+//        RedisTemplate redisTemplate = new RedisTemplate();
+//        redisTemplate.setConnectionFactory(jedisConnectionFactory);
+//        redisTemplate.setEnableTransactionSupport(true);
+//        return redisTemplate;
+//    }
 
 }

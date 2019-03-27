@@ -102,6 +102,8 @@ public class DistributedLockByRedis {
             }
         } catch (Exception e) {
             System.out.println("错误");
+        } finally {
+            jedis.close();
         }
         return unlock;
     }
