@@ -1,2 +1,11 @@
 server:
   port: 8088
+
+learn.common:
+  ##存储方式:AEROSPIKE,REDIS的集群模式，用于存储免疫名单中间数据
+  cache.mode: REDIS_CLUSTER
+  redis:
+    nodes: 192.168.11.129:7001,192.168.11.129:7002,192.168.11.129:7003,192.168.11.129:7004,192.168.11.129:7005,192.168.11.129:7006
+    connectionTimeout: 2000
+    soTimeout: 1000 #socket 超时时间
+    maxAttempts: 5 #请求失败的最大重试次数

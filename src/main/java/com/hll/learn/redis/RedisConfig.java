@@ -2,6 +2,7 @@ package com.hll.learn.redis;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
@@ -17,11 +18,12 @@ import java.util.Set;
  * @date 2019/2/28
  */
 @Configuration
+@ConditionalOnProperty(value = {"learn.common.cache.mode"}, havingValue = "REDIS")
 public class RedisConfig {
 
-    @Value("${redis.host:192.168.59.129}")
+    @Value("${redis.host:192.168.11.129}")
     private String host;
-    @Value("${redis.port:6379}")
+    @Value("${redis.port:7001}")
     private int port;
     @Value("${redis.pass:}")
     private String pass;

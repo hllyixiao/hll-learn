@@ -4,10 +4,10 @@ import com.hll.learn.redis.DistributedLockByRedis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisSentinelPool;
-import redis.clients.jedis.Transaction;
+import redis.clients.jedis.*;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * @author hell
@@ -16,14 +16,37 @@ import redis.clients.jedis.Transaction;
 @RestController
 public class RedisController {
 
-    @Autowired
+    @Autowired(required = false)
     private JedisPool pool;
+    @Autowired(required = false)
+    private JedisCluster jedisCluster;
 //    @Autowired
 //    private JedisSentinelPool pool;
 
     @GetMapping("/redis/test")
     public void test(){
         Jedis jedis = pool.getResource();
+
+        //管道 （批量操作）
+        Pipeline pipeline = jedis.pipelined();
+        for(int i = 0;i<10;i++){
+            String content = i + "";
+            pipeline.set("h"+content,content);
+        }
+        pipeline.sync();
+        //pipeline.syncAndReturnAll();
+
+        Map<String,Response> responses = new LinkedHashMap<String, Response>();
+        for(int i = 0;i<10;i++){
+            String content = i + "";
+            Response<String> response = pipeline.get("h"+content);
+            responses.put(content,response);
+        }
+        pipeline.sync();
+        for(String key:responses.keySet()){
+            System.out.println("key:"+key + ",value:" + responses.get(key).get());
+        }
+
 
         // 事物
         jedis.watch("k2");
@@ -72,7 +95,10 @@ public class RedisController {
 
     @GetMapping("/redis/test2")
     public void test2(){
-
+        // 测试集群
+        jedisCluster.set("h7003","7003");
+        String s = jedisCluster.get("h7003");
+        System.out.println(s);
     }
 
     @GetMapping("/redis/test1")
